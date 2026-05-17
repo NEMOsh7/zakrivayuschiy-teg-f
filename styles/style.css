@@ -160,7 +160,7 @@
 }
 
 .save__button {
-  margin-block-end: var(--offset-l);
+  margin-block-end: 100px;
 }
 
 .button {
@@ -218,9 +218,10 @@
   mix-blend-mode: difference;
 }
 
-.insert-floppy {
+.insert-floppy[open] {
   inline-size: clamp(341px, calc(336.775px + 1.127vw), 353px);
   padding: 28px;
+  border: var(--border);
 }
 
 .insert-floppy .button__text {
